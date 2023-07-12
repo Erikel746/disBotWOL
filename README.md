@@ -1,1 +1,1 @@
-Discord Bot to send commadns like WOL for your own hosted servers
+Discord Bot to send commands like WOL for your own hosted servers.
