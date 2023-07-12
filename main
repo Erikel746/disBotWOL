@@ -16,9 +16,8 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.channel.name == 'proxmox-api':
-        import wakeonlan
+    if message.channel.name == "channelName":
         wakeonlan.send_magic_packet("MAC_ADDR", interface="IP_PI")
-        print("gesendet")
+        print("send")
 
 client.run(TOKEN)
